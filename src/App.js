@@ -6,7 +6,7 @@ import NewMeetups from "./components/pages/NewMeetups";
 
 function App() {
   return (
-    <div>
+
     <Layout>
       <Switch>
         <Route path="/" exact>
@@ -20,7 +20,7 @@ function App() {
         </Route>
       </Switch>
       </Layout>
-    </div>
+ 
     
   );
 }
